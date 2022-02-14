@@ -14,7 +14,7 @@ client = commands.Bot(
 
 async def on_connect():
 
-  await client.change_presence(activity = discord.Streaming(name = "  • OPEN JASA ALL SA-MP✓ | • 100% NO SCAM✓ | • ORDER DM AJA OK✓ | • SUBSCRIBE MY CHANNEL YOUTUBE✓", url = "Link twitch.tv Channel Kalian"))
+  await client.change_presence(activity = discord.Streaming(name = "  • OPEN JASA ALL SA-MP✓ | • 100% NO SCAM✓ | • ORDER DM AJA OK✓ | • SUBSCRIBE MY CHANNEL YOUTUBE✓", url = "https://www.twitch.tv/omitgaming"))
 
 
 keep_alive.keep_alive()
